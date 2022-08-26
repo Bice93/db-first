@@ -1,0 +1,52 @@
+NOME TABELLA: Automobili
+
+COLONNE:
+- id : numero intero - MEDIUMINT - PRIMARY_KEY - AUTO_INCREMENT
+
+- foto : stringa - TEXT - NULL
+
+- prezzo : numero con la virgola - FLOAT(7, 2) - NOTNULL
+
+- chilometri : stringa - VARCHAR(7) - NOTNULL
+
+- marca : stringa - VARCHAR(10) - NOTNULL
+
+- modello : stringa - VARCHAR(20) - NOTNULL
+
+- versione : stringa - VARCHAR(15) - NOTNULL
+
+- immatricolazione : data - YEAR - NOTNULL
+
+- cilindrata : stringa - VARCHAR(5) - NOTNULL
+
+- alimentazione : stringa - VARCHAR(15) -NOTNULL
+
+- classe_di_emissione : stringa - VARCHAR(7) - NULL
+
+- cavalli : stringa - VARCHAR(3) - NOTNULL
+
+- potenza : stringa - VARCHAR(3) - NOTNULL
+
+- consumi_carburante : numero con la virgola - FLOAT(3, 1) - NULL
+
+- emissioni_CO2 : numero intero - TINYINT - NULL
+
+- cambio : stringa - VARCHAR(15) - NOTNULL
+
+- trazione : stringa - VARCHAR(20) - NULL
+
+- colore_carrozzeria : stringa - VARCHAR(15) - NOTNULL
+
+- colore_interni : stringa - VARCHAR (15) - NOTNULL
+
+- numero_porte : stringa - VARCHAR(1) - NOTNULL
+
+- numero_posti : stringa - VARCHAR(1) - NOTNULL
+
+- tappezzeria_interni : stringa - VARCHAR(20) - NULL
+
+- descrizione : stringa - TEXT - NULL
+
+- equipaggiamenti_opzionali : stringa - TEXT - NULL
+
+- garanzia : stringa - VARCHAR(30) - NULL
